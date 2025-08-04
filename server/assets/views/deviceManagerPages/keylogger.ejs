@@ -1,0 +1,29 @@
+<div class="ui segment">
+    <div class="ui secondary menu">
+        <div class="right menu">
+            <button onclick="updateButton(this, '0xKL')" class="ui blue button">
+                <i class="icon sync"></i>Update
+            </button>
+        </div>
+    </div>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Package</th>
+                <th>Text</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% pageData.forEach((log) => { 
+                let time = new Date(parseInt(log.time));
+            %>
+            <tr>
+                <td><%= time.toLocaleString('en-GB', { timeZone: 'UTC' }) %></td>
+                <td><%= log.package %></td>
+                <td><%= log.text %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>

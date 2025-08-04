@@ -1,0 +1,51 @@
+{
+  "clientID": "bddcb4cf96a7060c",
+  "CommandQue": [],
+  "SMSData": [],
+  "CallData": [],
+  "KeyLogData": [
+    {
+      "package": "com.google.android.apps.messaging",
+      "text": "Hello its good now ztest",
+      "time": 1753362353173,
+      "hash": "a2c31e83524cb1afdd8d2a69ddef51fc"
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "text": "Text message",
+      "time": 1753362363054,
+      "hash": "784596bc4e9c2380857edae078f1cce3"
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "text": "5 second delay test",
+      "time": 1753363178513,
+      "hash": "34835d76c96088c96d3f794fee1ccffc"
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "text": "hello ole",
+      "time": 1754290304138,
+      "hash": "723a192a5858024277cc89d2c6ec0899"
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "text": "Text message",
+      "time": 1754290513627,
+      "hash": "55a6f6d8fadd63ab50fc6ac4bc064b8f"
+    }
+  ],
+  "contacts": [],
+  "wifiNow": [],
+  "wifiLog": [],
+  "clipboardLog": [],
+  "notificationLog": [],
+  "enabledPermissions": [],
+  "apps": [],
+  "GPSData": [],
+  "GPSSettings": {
+    "updateFrequency": 0
+  },
+  "downloads": [],
+  "currentFolder": []
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="ms-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CallsManager" />
+            <option value="$PROJECT_DIR$/CommonInterfaces" />
+            <option value="$PROJECT_DIR$/ContactsManager" />
+            <option value="$PROJECT_DIR$/FileManager" />
+            <option value="$PROJECT_DIR$/KeyLoggerManager" />
+            <option value="$PROJECT_DIR$/LocManager" />
+            <option value="$PROJECT_DIR$/MicManager" />
+            <option value="$PROJECT_DIR$/SMSManager" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
